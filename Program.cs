@@ -22,9 +22,13 @@ namespace CCAD16_Assignment1_2_1
             Console.WriteLine("You entered the following numbers: " + value1 + " and " + value2);
 
             if (value1 != value2)
+            {
                 Console.WriteLine("Sorry, your values are NOT equal to each other");
+            }
             else
+            {
                 Console.WriteLine("Congratulations, your values ARE equal to each other!");
+            }
         }
     }
 }
